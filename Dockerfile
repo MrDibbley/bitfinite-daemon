@@ -9,8 +9,7 @@ RUN \
   apt-get update && \
   apt-get -y upgrade && \
   apt-get install -y libboost-all-dev && \
-  apt-get install -y libdb++-dev && \
-  apt-get install -y libminiupnpc-dev
+  apt-get install -y libdb++-dev
 
 # Add files
 COPY Bitfinited /usr/bin/Bitfinited
